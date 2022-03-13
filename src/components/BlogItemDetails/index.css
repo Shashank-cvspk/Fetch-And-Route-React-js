@@ -1,0 +1,30 @@
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  padding: 30px;
+}
+.blog-details-title {
+  text-align: center;
+}
+.author-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.author-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.blog-image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  height: auto;
+  width: 100%;
+}
+.blog-content {
+  margin: auto;
+}

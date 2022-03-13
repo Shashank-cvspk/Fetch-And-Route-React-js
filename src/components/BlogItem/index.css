@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+/* Write your CSS code here */
+.item-link {
+  text-decoration: none;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  border-style: solid;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-color: #8e8e8e;
+}
+.logo-blog {
+  height: 250px;
+  width: 400px;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.author {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: auto;
+}
+.matter {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.author-name {
+  margin-left: 10px;
+}
+h1 {
+  font-size: 30px;
+  color: black;
+}
+p {
+  color: #8e8e8e;
+}
