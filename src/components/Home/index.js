@@ -33,9 +33,9 @@ class Home extends Component {
   render() {
     const {list, isLoading} = this.state
     return (
-      <div className="home-container">
-        <UserInfo />
-        <div testid="loader">
+      <div testid="loader">
+        <div className="home-container">
+          <UserInfo />
           {isLoading ? (
             <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
           ) : (
