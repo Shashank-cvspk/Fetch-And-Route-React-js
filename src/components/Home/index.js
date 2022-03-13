@@ -33,15 +33,15 @@ class Home extends Component {
   render() {
     const {list, isLoading} = this.state
     return (
-      <div testid="loader">
-        <div className="home-container">
-          <UserInfo />
-          {isLoading ? (
+      <div className="home-container">
+        <UserInfo />
+        {isLoading ? (
+          <div testid="loader">
             <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
-          ) : (
-            <BlogList list={list} />
-          )}
-        </div>
+          </div>
+        ) : (
+          <BlogList list={list} />
+        )}
       </div>
     )
   }
